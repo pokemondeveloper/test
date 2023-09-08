@@ -1,0 +1,92 @@
+/* CSS set */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.button-block {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/images/map.png"); 
+  background-size: cover;
+  background-color: rgb(147, 147, 170);
+  background-blend-mode: multiply;
+}
+
+.map-button {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #3498db;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Defining positions of buttons */
+.map-button-1 {
+  top: 282px;
+  left: 580px;
+}
+.map-button-2 {
+  top: 714px;
+  left: 446px;
+}
+.map-button-3 {
+  top: 482px;
+  left: 687px;
+  background-color: #6abf4b;
+}
+.map-button-4 {
+  top: 404px;
+  left: 1148px;
+  background-color: #6abf4b;
+}
+.map-button-5 {
+  top: 629px;
+  left: 1081px;
+}
+.map-button-6 {
+  top: 790px;
+  left: 1107px;
+  background-color: #6abf4b;
+}
+.map-button-7 {
+  top: 225px;
+  left: 1373px;
+}
+.map-button-8 {
+  top: 475px;
+  left: 1414px;
+}
+.map-button-9 {
+  top: 669px;
+  left: 1306px;
+  background-color: #6abf4b;
+}
+.map-button-10 {
+  top: 713px;
+  left: 1593px;
+}
+
+/* Style for when the text changes to city name */
+.city {
+  width: auto;
+  padding: 5px 20px;
+  font-size: 14px;
+}
+
+/* Change background color and border-radius for the button when clicked */
+.clicked {
+  background-color: #6abf4b;
+  border-radius: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 11px 15px;
+}
